@@ -28,20 +28,22 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-form-container card">
-          <form className="contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST" className="contact-form">
+            <input type="hidden" name="access_key" value="8dc54f9d-b30c-4ae8-9fe7-4472821670ff" />
+            
             <div className="form-group">
               <label>Name</label>
-              <input type="text" placeholder="John Doe" />
+              <input type="text" name="name" placeholder="John Doe" required />
             </div>
             <div className="form-group">
               <label>Email</label>
-              <input type="email" placeholder="john@example.com" />
+              <input type="email" name="email" placeholder="john@example.com" required />
             </div>
             <div className="form-group">
               <label>Message</label>
-              <textarea rows="4" placeholder="Tell me about your project..."></textarea>
+              <textarea name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
             </div>
-            <button type="button" className="btn btn-primary full-width" onClick={(e) => e.preventDefault()}>Send Message</button>
+            <button type="submit" className="btn btn-primary full-width">Send Message</button>
           </form>
         </div>
       </div>
