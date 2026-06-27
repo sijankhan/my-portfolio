@@ -75,6 +75,10 @@ h2 {
   color: #3b82f6;
 }
 
+.text-green {
+  color: #10b981;
+}
+
 .text-gradient {
   background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));
   -webkit-background-clip: text;

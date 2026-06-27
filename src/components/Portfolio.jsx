@@ -24,6 +24,16 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      img: '/images/healthfirst_clinic.png',
+      title: 'HealthFirst Clinic',
+      category: 'Healthcare',
+      categoryColor: 'green',
+      description: 'A professional clinic website with doctor profiles, services list, appointment booking form, patient testimonials, and WhatsApp button. Built in 3 days using AI.',
+      tags: ['Doctor Profiles', 'Appointment Form', 'Testimonials', 'WhatsApp'],
+      link: 'https://healthfirst-clinic0.netlify.app',
+    },
+    {
+      id: 4,
       img: '/images/portfolio_1.png',
       title: 'E-commerce Platform',
       category: 'Web App',
@@ -61,7 +71,7 @@ const Portfolio = () => {
                 <img src={project.img} alt={project.title} />
               </div>
               <div className="portfolio-info">
-                <p className={`portfolio-category ${project.categoryColor === 'blue' ? 'text-blue' : 'text-purple'}`}>{project.category}</p>
+                <p className={`portfolio-category text-${project.categoryColor || 'purple'}`}>{project.category}</p>
                 <h4>{project.title}</h4>
                 <p className="portfolio-desc">{project.description}</p>
                 <div className="portfolio-tags">
