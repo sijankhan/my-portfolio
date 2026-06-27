@@ -10,7 +10,7 @@ const Portfolio = () => {
       category: 'Restaurant',
       description: 'Online menu, order form, WhatsApp chat button — fully mobile-friendly.',
       tags: ['Online Menu', 'Order Form', 'WhatsApp Chat'],
-      link: 'https://github.com/sijankhan/spice-garden-dhaka',
+      link: 'https://spice-garden-dhaka.lovable.app/',
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ const Portfolio = () => {
       tags: ['eCommerce', 'Responsive', 'SEO'],
     },
     {
-      id: 4,
+      id: 5,
       img: '/images/portfolio_2.png',
       title: 'Corporate Dashboard',
       category: 'SaaS',
@@ -49,7 +49,7 @@ const Portfolio = () => {
       tags: ['Dashboard', 'Analytics', 'Dark Mode'],
     },
     {
-      id: 5,
+      id: 6,
       img: '/images/portfolio_3.png',
       title: 'AI Startup Landing Page',
       category: 'Landing Page',
