@@ -12,8 +12,8 @@ const Services = () => {
           {/* Starter Tier */}
           <div className="card pricing-card">
             <h3>Starter</h3>
-            <div className="price">$99</div>
-            <p className="price-note">≈ ৳12,000</p>
+            <div className="price">$30</div>
+            <p className="price-note">≈ ৳3,600</p>
             <ul className="features">
               <li>Beautiful 1–3 Page Website</li>
               <li>Mobile-Friendly Design</li>
@@ -28,8 +28,8 @@ const Services = () => {
           <div className="card pricing-card popular">
             <div className="badge">Best Value</div>
             <h3>Business</h3>
-            <div className="price">$249</div>
-            <p className="price-note">≈ ৳30,000</p>
+            <div className="price">$70</div>
+            <p className="price-note">≈ ৳8,400</p>
             <ul className="features">
               <li>Up to 7 Custom Pages</li>
               <li>Modern Animations & Effects</li>
@@ -44,8 +44,8 @@ const Services = () => {
           {/* Premium Tier */}
           <div className="card pricing-card">
             <h3>Premium</h3>
-            <div className="price">$499+</div>
-            <p className="price-note">≈ ৳60,000+</p>
+            <div className="price">$175+</div>
+            <p className="price-note">≈ ৳21,000+</p>
             <ul className="features">
               <li>eCommerce / Booking System</li>
               <li>Admin Dashboard & CMS</li>
